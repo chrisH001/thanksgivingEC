@@ -11,6 +11,7 @@ body {
 img {
     max-width: 100%;
     padding: 0.5rem;
+    ;
 }
 
 h1
@@ -96,8 +97,18 @@ header nav ul li a:hover {
     width: 30%;
 }
 
+.thirds article img{
+height: 220px;
+width: 100%;
+}
+
 .halves article {
     width: 48%;
+}
+
+.halves article img{
+    height: 400px;
+    width:100%;
 }
 
 .cards article a, .card a {
@@ -207,6 +218,11 @@ header nav ul li a:hover {
 
 .quarters article {
     width: 23%;
+}
+
+.quarters article img{
+height: 220px;
+width: 100%;
 }
 
 .readmore{
